@@ -6,7 +6,6 @@ st.markdown(
     <style>
     .stApp {
         background: 
-         linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
          
         url("https://i.postimg.cc/sXFhvNFd/28b4b66b94acdfb7f139bb1ed9ff6bf6.gif"),
         url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg");
@@ -16,7 +15,7 @@ st.markdown(
         background-position: center, center, center;
     }
 
-    .block-container { background-color: rgba(255, 255, 255, 0.0);
+    .block-container
     }
     </style>
     """,
