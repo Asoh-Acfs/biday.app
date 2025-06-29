@@ -6,7 +6,8 @@ st.markdown(
     <style>
     .stApp {
         background: 
-            url("https://i.postimg.cc/9M4CkQsh/1554d0525aedd988ae25e6b9d7ee3777.gif"),
+            url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg"),
+            url("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center, center, center;
