@@ -1,54 +1,48 @@
 import streamlit as st
-from datetime import date
-from PIL import Image
-import streamlit.components.v1 as components
 
-# App setup
-st.set_page_config(page_title="Happy Birthday Chinenye!", layout="centered")
+# 💅🏽 Inject pink & glitter styles
+st.markdown(
+    """
+    <style>
+        .stApp {
+            background-color: #ffe6f0;
+            background-image: url("https://i.imgur.com/Rwh6r8W.gif"); /* glitter overlay */
+            background-size: cover;
+            color: #d63384;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ff4da6;
+        }
+        .stButton > button {
+            background-color: #ff69b4;
+            color: white;
+            border-radius: 12px;
+        }
+        img {
+            border: 5px solid #ffb6c1;
+            border-radius: 20px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-# Confetti Animation
-components.html("""
-    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
-    <canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;"></canvas>
-    <script>
-    var confettiSettings = { target: 'confetti-canvas', max: 150, size: 1.2, animate: true };
-    var confetti = new ConfettiGenerator(confettiSettings);
-    confetti.render();
-    </script>
-""", height=0)
+# 🎀 Birthday content
+st.title("🎀 Happy 22nd Birthday Chinenye ,omoor, you're getting old oo🎀")
+st.image("https://i.imgur.com/CHINENYE_IMAGE.jpg", caption="Pink Princess Chinenye 👑", width=300)
 
-# Title and name
-st.title("**Happy 22nd Birthday, Chinenye!, omoor, you're getting old oo**")
-st.markdown("### Wishing you the most beautiful and joyful year ahead!")
+st.subheader("💖 You are deeply loved  and ANNOYING!!!💖")
 
-# Age info
-birthday_year = date.today().year - 22
-st.markdown(f"**Born in {birthday_year}, and now you're 22 — a shining star full of purpose and grace!**")
+st.write("""
+Dear Chinenye,
 
-# Birthday prayer
-st.markdown("---")
-st.markdown("### A Birthday Prayer for You")
-st.markdown("""
-*May God bless you abundantly in this new age.  
-May He protect you, guide your steps, and fill your heart with joy, peace, and faith.  
-May all your dreams come true in the most beautiful way, and may you grow in wisdom and strength.  
-Amen.*  
+Wishing you a birthday as fabulous as your favorite color! 💅🏽💓  
+You are annoying, irritating, a pain in my butt, and as extra as this app — and we LOVE that for you! 💄💝😒
+
+May this year bring you all your heart's desires and more pink bags than Barbie. eyama 🤮🤢 🎀
+
+With all the love in the world,  
+**Chidalu💋**
 """)
 
-# Birthday quote
-st.markdown("---")
-st.markdown("### Birthday Quote")
-st.markdown("> *“Every year of your life is a beautiful story written by God. Let this chapter be your best one yet.”*")
-
-# Upload and display images
-st.markdown("---")
-st.markdown("### Some of your lovely pictures:")
-uploaded_files = st.file_uploader("Upload some of her pictures", accept_multiple_files=True, type=['png', 'jpg', 'jpeg'])
-
-if uploaded_files:
-    for uploaded_file in uploaded_files:
-        img = Image.open(uploaded_file)
-        st.image(img, caption="Beautiful memories!", use_column_width=True)
-
-# Balloons
 st.balloons()
