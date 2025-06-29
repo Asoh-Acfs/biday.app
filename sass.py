@@ -7,6 +7,7 @@ st.markdown(
     .stApp {
         background: 
         url("https://i.postimg.cc/sXFhvNFd/28b4b66b94acdfb7f139bb1ed9ff6bf6.gif"),
+        url("https://i.postimg.cc/0jSxrVq3/Screenshot-20250629-061325.jpg");
         
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
