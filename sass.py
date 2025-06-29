@@ -15,7 +15,7 @@ st.markdown(
     }
 
     .block-container {
-        background-color: rgba(255, 255, 255, 0.0); /* Transparent content */
+        background-color: rgba(255, 255, 255, 0.0);
     }
     </style>
     """,
@@ -35,7 +35,7 @@ Dear Chinenye,
 Wishing you a birthday as fabulous as your favorite color! 💅🏽💓  
 You are annoying, irritating, a pain in my butt, and as extra as this app — and we LOVE that for you! 💄💝😒
 
-May this year bring you all your heart's desires and more pink bags than Barbie. eyama 🤮🤢 🎀
+May this year bring you all your heart's desires and more pink bags than Barbie.🎀 eyama 🤮🤢 
 
 With all the love in the world,  
 **Chidalu 💋**
