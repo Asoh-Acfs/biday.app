@@ -6,7 +6,6 @@ st.markdown(
     <style>
     .stApp {
         background: 
-         
         url("https://i.postimg.cc/sXFhvNFd/28b4b66b94acdfb7f139bb1ed9ff6bf6.gif"),
         
         background-size: cover, cover, cover;
