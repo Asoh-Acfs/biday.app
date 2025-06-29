@@ -7,7 +7,7 @@ st.markdown(
     .stApp {
         background: 
             linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
-            url("https://i.gifer.com/embedded/download/7VE.gif"),
+            url("https://i.postimg.cc/9M4CkQsh/1554d0525aedd988ae25e6b9d7ee3777.gif"),
             url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg");
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
