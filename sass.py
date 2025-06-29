@@ -6,12 +6,16 @@ st.markdown(
     <style>
     .stApp {
         background: 
-            url("https://i.imgur.com/Rwh6r8W.gif"),  /* ✨ Glitter GIF on top */
+            url("https://i.imgur.com/Rwh6r8W.gif"),
             url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg"),
             url("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center, center, center;
+    }
+
+    .block-container {
+        background-color: rgba(255, 255, 255, 0.0); /* Transparent background */
     }
     </style>
     """,
