@@ -1,5 +1,21 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background:
+            url('https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg'),
+            url('https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg');
+        background-size: cover, cover;
+        background-repeat: no-repeat, no-repeat;
+        background-position: center center, center center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # 💅🏽 Inject pink & glitter styles
 st.markdown(
     """
@@ -29,7 +45,7 @@ st.markdown(
 
 # 🎀 Birthday content
 st.title("🎀 Happy 22nd Birthday Chinenye ,omoor, you're getting old oo🎀")
-st.image("https://i.imgur.com/CHINENYE_IMAGE.jpg", caption="Pink Princess Chinenye 👑", width=300)
+st.image("https://i.postimg.cc/G2dW1h4N/Screenshot-20250629-033817.jpg", caption="I want cake 😭, tell Daddy to buy cake👑", width=300)
 
 st.subheader("💖 You are deeply loved  and ANNOYING!!!💖")
 
