@@ -1,43 +1,16 @@
 import streamlit as st
-
 st.markdown(
     """
     <style>
     .stApp {
-        background:
-            url('https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg'),
-            url('https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg');
-        background-size: cover, cover;
-        background-repeat: no-repeat, no-repeat;
-        background-position: center center, center center;
+        background: 
+            url("https://i.imgur.com/Rwh6r8W.gif"),  /* ✨ Glitter GIF on top */
+            url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg"),
+            url("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
+        background-size: cover, cover, cover;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center, center, center;
     }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# 💅🏽 Inject pink & glitter styles
-st.markdown(
-    """
-    <style>
-        .stApp {
-            background-color: #ffe6f0;
-            background-image: url("https://i.imgur.com/Rwh6r8W.gif"); /* glitter overlay */
-            background-size: cover;
-            color: #d63384;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            color: #ff4da6;
-        }
-        .stButton > button {
-            background-color: #ff69b4;
-            color: white;
-            border-radius: 12px;
-        }
-        img {
-            border: 5px solid #ffb6c1;
-            border-radius: 20px;
-        }
     </style>
     """,
     unsafe_allow_html=True
