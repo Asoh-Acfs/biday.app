@@ -5,13 +5,14 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: 
+        background:  linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center, center, center;
     }
 
     .block-container {
+    background-color: rgba(255, 255, 255, 0.0);
     }
     </style>
     """,
