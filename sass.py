@@ -6,15 +6,16 @@ st.markdown(
     <style>
     .stApp {
         background: 
-            url("https://i.postimg.cc/9M4CkQsh/1554d0525aedd988ae25e6b9d7ee3777.gif"),
+            linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
+            url("https://i.gifer.com/embedded/download/7VE.gif"),
             url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg");
-        background-size: cover, cover;
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, center;
+        background-size: cover, cover, cover;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center, center, center;
     }
 
     .block-container {
-        background-color: rgba(255, 255, 255, 0.0);
+        background-color: rgba(255, 255, 255, 0.0); /* Transparent content */
     }
     </style>
     """,
@@ -22,10 +23,11 @@ st.markdown(
 )
 
 # 🎀 Birthday content
-st.title("🎀 Happy 22nd Birthday Chinenye ,omoor, you're getting old oo🎀")
-st.image("https://i.postimg.cc/G2dW1h4N/Screenshot-20250629-033817.jpg", caption="I want cake 😭, tell Daddy to buy cake👑", width=300)
+st.title("🎀 Happy 22nd Birthday Chinenye, omoor, you're getting old oo 🎀")
+st.image("https://i.postimg.cc/G2dW1h4N/Screenshot-20250629-033817.jpg", caption="I want cake 😭, tell Daddy to buy cake 👑", width=300)
 st.image("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
-st.subheader("💖 You are deeply loved  and ANNOYING!!!💖")
+
+st.subheader("💖 You are deeply loved and ANNOYING!!! 💖")
 
 st.write("""
 Dear Chinenye,
@@ -36,7 +38,11 @@ You are annoying, irritating, a pain in my butt, and as extra as this app — an
 May this year bring you all your heart's desires and more pink bags than Barbie. eyama 🤮🤢 🎀
 
 With all the love in the world,  
-**Chidalu💋**
+**Chidalu 💋**
 """)
+
+# Stretch the page so background shows fully
+for _ in range(30):
+    st.write("")
 
 st.balloons()
