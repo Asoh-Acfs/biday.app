@@ -9,7 +9,6 @@ st.markdown(
          linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
          
         url("https://i.postimg.cc/sXFhvNFd/28b4b66b94acdfb7f139bb1ed9ff6bf6.gif"),
-        url("https://i.postimg.cc/0jSxrVq3/Screenshot-20250629-061325.jpg");
         url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg");
         
         background-size: cover, cover, cover;
