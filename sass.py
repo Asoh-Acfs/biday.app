@@ -6,6 +6,8 @@ st.markdown(
     <style>
     .stApp {
         background:  linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),
+        https://i.postimg.cc/sXFhvNFd/28b4b66b94acdfb7f139bb1ed9ff6bf6.gif
+        
         background-size: cover, cover, cover;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: center, center, center;
