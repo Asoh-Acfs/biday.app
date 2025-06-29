@@ -6,15 +6,15 @@ st.markdown(
     <style>
     .stApp {
         background: 
-            url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg"),
-            url("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
-        background-size: cover, cover, cover;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: center, center, center;
+            url("https://i.gifer.com/embedded/download/7VE.gif"),
+            url("https://i.postimg.cc/Z9S6BMdY/Screenshot-20250629-030117.jpg");
+        background-size: cover, cover;
+        background-repeat: no-repeat, no-repeat;
+        background-position: center, center;
     }
 
     .block-container {
-        background-color: rgba(255, 255, 255, 0.0); /* Transparent body */
+        background-color: rgba(255, 255, 255, 0.0);
     }
     </style>
     """,
@@ -24,7 +24,7 @@ st.markdown(
 # 🎀 Birthday content
 st.title("🎀 Happy 22nd Birthday Chinenye ,omoor, you're getting old oo🎀")
 st.image("https://i.postimg.cc/G2dW1h4N/Screenshot-20250629-033817.jpg", caption="I want cake 😭, tell Daddy to buy cake👑", width=300)
-
+st.image("https://i.postimg.cc/4Ytz3gnF/Screenshot-20250629-025200.jpg");
 st.subheader("💖 You are deeply loved  and ANNOYING!!!💖")
 
 st.write("""
